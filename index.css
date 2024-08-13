@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://static.vecteezy.com/system/resources/previews/001/410/750/original/cyber-monday-happy-shopping-background-free-vector.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 600px;
+    width: 120%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #cccccc;
+    line-height: 1.5;
+}
+
+/* Button Styles */
+.get-started-button {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background: linear-gradient(45deg, #05e2f1, #00ff2f);
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.5);
+}
+
+.get-started-button:hover {
+    background: linear-gradient(45deg, #06dbfc, #09ff1a);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 123, 255, 0.6);
+}
